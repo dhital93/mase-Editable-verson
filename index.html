@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="home.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <h1>Wel Come To Mase Calculator By :<strong> Prabin</strong></h1>
+      <div>
+        <h2>Number Of Person</h2>
+        <select name="" id="number">
+          <option value="Two">Two</option>
+          <option value="Three">Three</option>
+          <option value="Four">Four</option>
+          <option value="Five">Five</option>
+          <option value="Six">Six</option>
+          <option value="Seven">Seven</option>
+          <option value="Eight">Eight</option>
+          <option value="Nine">Nine</option>
+          <option value="Ten"> Ten</option>
+        </select>
+        <button onclick="person()">ok</button>
+      </div>
+    </main>
+    <script>
+      function person() {
+        var num = document.getElementById("number").value;
+        if (num === "Two") {
+          window.open("./two person/two.html", "_self");
+        } else if (num === "Three") {
+          window.open("./three person/three.html", "_self");
+        } else if (num === "Four") {
+          window.open("./four person/four.html");
+        } else if (num === "Five") {
+          window.open("./five person/five.html", "_self");
+        } else if (num === "Six") {
+          window.open("./six person/six.html", "_self");
+        } else if (num === "Seven") {
+          window.open("./seven person/seven.html", "_self");
+        } else if (num === "Eight") {
+          window.open("./eight person/eight.html", "_self");
+        } else if (num === "Nine") {
+          window.open("./nine person/nine.html", "_self");
+        } else if (num === "Ten") {
+          window.open("./ten person/ten.html", "_self");
+        } else {
+          console.log("Error");
+        }
+      }
+    </script>
+  </body>
+</html>

@@ -1,0 +1,22 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif monospace;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10%;
+  flex-wrap: wrap;
+}
+#containerTotal {
+  width: 100%;
+  display: flex;
+  margin: 20px;
+  justify-content: space-around;
+}
+.totalHead {
+  width: 100%;
+  display: inline;
+  text-align: center;
+}

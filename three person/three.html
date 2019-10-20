@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script type="text/javascript" src="three.js"></script>
+    <link rel="stylesheet" href="three.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body onload="name()">
+    <main>
+      <div id="uaerOne">
+        <div id="userDetails">
+          <div>
+            <input type="text" placeholder="User Name" id="name" />
+            <button onclick="one()">ok</button>
+          </div>
+          <h2 id="nameOne"></h2>
+        </div>
+        <div>
+          <textarea name="" id="expenses1" cols="30" rows="10"></textarea>
+          <br />
+          <input type="text" id="totalExpenses1" disabled />
+        </div>
+      </div>
+      <div id="uaerTwo">
+        <div id="userDetailsT">
+          <div>
+            <input type="text" placeholder="User Name" id="name2" />
+            <button onclick="two()">ok</button>
+          </div>
+          <h2 id="nameTwo"></h2>
+        </div>
+        <div>
+          <textarea name="" id="expenses2" cols="30" rows="10"></textarea>
+          <br />
+          <input type="text" id="totalExpenses2" disabled />
+        </div>
+      </div>
+      <div id="uaerThree">
+        <div id="userDetails">
+          <div>
+            <input type="text" placeholder="User Name" id="name3" />
+            <button onclick="three()">ok</button>
+          </div>
+          <h2 id="nameThree"></h2>
+        </div>
+        <div>
+          <textarea name="" id="expenses3" cols="30" rows="10"></textarea>
+          <br />
+          <input type="text" id="totalExpenses3" disabled />
+        </div>
+      </div>
+    </main>
+    <div id="containerTotal">
+      <div>
+        <h2>Total</h2>
+        <input type="text" id="total" disabled />
+      </div>
+      <div>
+        <h2>Per Head</h2>
+        <input type="text" id="perhead" disabled />
+      </div>
+    </div>
+    <div class="totalHead">
+      <div>
+        <h2 id="nameT1"></h2>
+        <input type="text" id="grandTotal1" disabled />
+      </div>
+      <div>
+        <h2 id="nameT2"></h2>
+        <input type="text" id="grandTotal2" disabled />
+      </div>
+      <div>
+        <h2 id="nameT3"></h2>
+        <input type="text" id="grandTotal3" disabled />
+      </div>
+    </div>
+  </body>
+</html>
